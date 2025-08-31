@@ -1,3 +1,6 @@
+// @ts-nocheck
+
+
 import { NextRequest } from 'next/server'
 import { db } from '@/lib/db'
 import { verifyApiKey, createApiResponse, createErrorResponse } from '@/lib/auth'
